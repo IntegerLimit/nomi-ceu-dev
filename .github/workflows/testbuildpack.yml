@@ -3,7 +3,7 @@ name: "[NOT CALLABLE] Test Build Pack"
 on:
   push:
     branches:
-      - test
+      - main
       - test_buildscript*
       - dev/*
     paths-ignore:
